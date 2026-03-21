@@ -22,3 +22,10 @@ This project is a Flask-based web application developed as part of the **IBM Gen
 3. Run the application:
    \`python3 server.py\`
 4. Open your browser to \`http://localhost:5000\`
+## Quality Assurance
+To ensure high code quality and adherence to Python best practices, this project underwent static code analysis:
+- **Pylint Score**: 10/10
+- **Standards**: Follows PEP 8 guidelines for docstrings, variable naming, and modularity.
+
+You can verify the code quality by running:
+\`pylint server.py EmotionDetection/emotion_detection.py\`
